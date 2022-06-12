@@ -42,3 +42,9 @@
 #### Python
 
 - [Киберволчонок](categories/python/pyt-1e-nan-injection/solution/writeup.md)
+
+#### Веб
+
+- [Огневой вал](categories/web/web-1m-waf-bypass/solution/writeup.md)
+- [Сага о Киберславе. HTTP часть 2.](categories/web/web-2e-http-smuggling/solution/writeup.md)
+- [Сага о Киберславе. HTTP часть 3.](categories/web/web-3h-http3/solution/writeup.md)
