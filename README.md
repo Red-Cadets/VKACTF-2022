@@ -6,7 +6,7 @@
 
 #### Крипта
 
-- [Загадки Лихолесья](categories/crypto/cry-1e-hill-prng/solution/writeup.md)
+- [Загадки Лихолесья](categories/crypto/cry-1e-hill-prng/solution/solution/writeup.md)
 - [XORовод](categories/crypto/cry-2m-round-key/solution/writeup.md)
 - [Славная битва](categories/crypto/cry-3m-RSA-Rabin/solution/writeup.md)
 - [Король и Шут](categories/crypto/cry-4h-ecdsa-cve/solution/writeup.md)
