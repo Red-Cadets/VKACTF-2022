@@ -37,8 +37,10 @@ python3 h2csmuggler.py -x https://PROXY http://127.0.0.1/flag
 
 ### Непредполагаемое решение
 
+```
 https://185.193.143.214//flag
+```
 
 **Флаг:**
 
-> vka{h2c_h77p_5mu66l1n6}
+> vka{h2c_http_smuggling}
