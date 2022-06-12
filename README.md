@@ -16,7 +16,7 @@
 - [Чудные комплюктеры](categories/forensics/for-1e-win-events/solution/writeup.md)
 - [Лихо](categories/forensics/for-2m-sqlmap-logs/solution/writeup.md)
 - [Кибер-коммивояжер](categories/forensics/for-3h-icmp-xor/solution/writeup.md)
-- [Связь с прошлым](categories/forensics/for-4h-con-with-past/solution/solution.md)
+- [Связь с прошлым](categories/forensics/for-4h-con-with-past/solution/writeup.md)
 
 #### Железяки
 
