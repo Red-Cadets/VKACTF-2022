@@ -1,10 +1,10 @@
 from pwn import *
 from Crypto.Util.number import *
 
-#-------------------------
-URL = ""
+
+URL = "176.118.164.39"
 PORT = 1337
-#------------------------- Сделать актуальными
+
 r = remote(URL , PORT)
 
 r.recvuntil(": ")
