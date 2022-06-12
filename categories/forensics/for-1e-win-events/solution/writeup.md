@@ -25,7 +25,7 @@ EventTranscript.db служит локальным хранилищем для �
 
 Есть два хода решения:
 
-    1) Руками перебрать лог, найти единственный флаг в leet, сделать
+    1) Руками перебрать лог, найти единственный флаг в leet, сдать
     2) Монтировать данный лог к себе.
 
 Каким образом это делается:
@@ -39,7 +39,7 @@ EventTranscript.db служит локальным хранилищем для �
 
 Далее перезагружаем систему и проверяем в Diagnostic Data Viewer, что события подгрузились.
 
-По запросу "parse eventtranscript.db" гугл выдает ссылку на [сайт](https://www.kroll.com/en/insights/publications/cyber/forensically-unpacking-eventtranscript/parsing-diagnostic-data-with-powershell-and-enhanced-logging), где описан метод парсинга через командлету в Powershell'e
+По запросу "parse diagnostic data" гугл выдает ссылку на [сайт](https://www.kroll.com/en/insights/publications/cyber/forensically-unpacking-eventtranscript/parsing-diagnostic-data-with-powershell-and-enhanced-logging), где описан метод парсинга через командлету в Powershell'e
 Устанавливаем в Powershell'e командлету Microsoft.DiagnosticDataViewer
 
 ```python
@@ -52,7 +52,7 @@ Enable-DiagnosticDataViewing
 ```python
 Get-DiagnosticData -DiagnosticDataCategory 25 -StartTime(Get-Date -Date "2022-05-26T21:35:00") -EndTime (Get-Date -Date "2022-05-26T21:40:00") | Export-Csv 'C:\path\to\file.csv'
 ```
-Немного изучая получившийся .csv файл находим флаг w40w_c0mp4dr3__d1d_u_f0und_r3534rch
+Немного изучая получившийся .csv файл находим флаг w40w_c0mp4dr3_d1d_u_f0und_r3534rch
 
 
 
@@ -61,5 +61,5 @@ Get-DiagnosticData -DiagnosticDataCategory 25 -StartTime(Get-Date -Date "2022-05
 
 
 ```
-vka{w40w_c0mp4dr3__d1d_u_f0und_r3534rch}
+vka{w40w_c0mp4dr3_d1d_u_f0und_r3534rch}
 ```
