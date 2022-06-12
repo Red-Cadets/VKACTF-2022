@@ -1,8 +1,8 @@
-## Try Hack me [ http level 2 ]
+## Сага о Киберславе. HTTP часть 2
 
 | Событие | Название | Категория | Сложность |
 | :------ | ---- | ---- | ---- |
-| VKACTF 2022 | Try Hack me [ http level 2 ] | Web | Easy |
+| VKACTF 2022 | Сага о Киберславе. HTTP часть 2 | Web | Easy |
 
 ### Описание
 
@@ -35,6 +35,9 @@
 python3 h2csmuggler.py -x https://PROXY http://127.0.0.1/flag
 ```
 
+### Непредполагаемое решение
+
+https://185.193.143.214//flag
 
 **Флаг:**
 
