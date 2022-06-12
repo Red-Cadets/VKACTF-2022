@@ -2,7 +2,7 @@
 
 | Событие | Название | Категория | Сложность |
 | :------ | ---- | ---- | ---- |
-| VKACTF 2022 | Web Application Files  | Web | Средняя |
+| VKACTF 2022 | Огневой вал  | Web | Средняя |
 
   
 ### Описание
@@ -50,7 +50,7 @@ payload += full_path
 usershare=some_username
 filename = payload 
 ```
-
+Через /download скачать было нельзя т.к. при такой конфигурации @app.route('/download/<filename>'), <filename> - все / считает как путь в url, а не название файла
 Т.к. неизвестно, какой файл необходимо прочиать, то остается вариант подделать сессию. SECRET_KEY находится в config.py
 
 ```python
