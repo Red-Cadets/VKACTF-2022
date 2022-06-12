@@ -26,7 +26,6 @@
 Примеры алгоритмов решения змейки:
 https://github.com/chuyangliu/snake/blob/master/docs/algorithms.md#hamilton-solver
 
-[script](Илюша, пожалуйста, сделай это)
 
 ```
 vka{7h3_5n4k3_15_n07_0nly_4_py7h0n_bu7_4l50_4_57364}
